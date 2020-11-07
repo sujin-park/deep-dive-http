@@ -14,14 +14,13 @@ Http 완벽가이드 책을 마스터하는 스터디 모임
 
 ### Pull Request 기반으로 공유하기
 
-1. https://github.com/sujin-park/deep-dive-http.git 저장소를 fork 합니다.
-2. GitHub ID 로 브랜치를 생성합니다.
+1. GitHub ID 로 브랜치를 생성합니다.
 
 ```jsx
 git switch -c [깃헙아이디]
 ```
 
-3. 해당 챕터 내에 markdown 형식의 파일을 추가합니다.
+2. 해당 챕터 내에 markdown 형식의 파일을 추가합니다.
 
 ```jsx
 chapter01
@@ -30,13 +29,13 @@ chapter02
 └── chapter02_sujin-park.md
 ```
 
-4. 해당 내용을 commit 및 push 를 하고 PR 을 올립니다.
+3. 해당 내용을 commit 및 push 를 하고 PR 을 올립니다.
 
-5. PR 올릴 때는 해당 챕터에 대한 라벨을 추가합니다.
+4. PR 올릴 때는 해당 챕터에 대한 라벨을 추가합니다.
 
-6. 서로 매주 일요일 스터디 모임 이전에 피드백을 주고 받으면서 승인 및 머지를 하여도 되고, 별도의 피드백을 주고 받지 않았다면 매주 일요일 스터디가 끝난 후에 일괄 merge를 합니다.
+5. 서로 매주 일요일 스터디 모임 이전에 피드백을 주고 받으면서 승인 및 merge를 하여도 되고, 별도의 피드백을 주고 받지 않았다면 매주 일요일 스터디가 끝난 후에 일괄 merge를 합니다.
 
-### Pull Request 이후 최신화 하기
+### 저장소를 Fork 하여 작업했을 때 Pull Request 이후 최신화 하기
 
 원격 저장소를 upstream 이란 이름으로 최초 1회 등록합니다.
 ```
