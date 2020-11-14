@@ -70,7 +70,7 @@
     * 헤더: 0개 이상 존재, 콜론(:)으로 구분된 필드 쌍, 빈 라인으로 종료
     * 본문: 클라이언트가 요청한 데이터 (문자열, 이진 등 종류 무관)  
 
-    !()[https://mdn.mozillademos.org/files/13827/HTTPMsgStructure2.png] 
+    ![](https://mdn.mozillademos.org/files/13827/HTTPMsgStructure2.png)
 
 ### TCP 연결
 + TCP (Transmission Control Protocol)
@@ -81,6 +81,7 @@
   - 전송계층 
     * 네트워크/HW 특성 감춤 => 범용성
     * 패킷 교환 네트워크 프로토콜의 집합 
+    * [OSI 7계층 참고](https://medium.com/harrythegreat/osi%EA%B3%84%EC%B8%B5-tcp-ip-%EB%AA%A8%EB%8D%B8-%EC%89%BD%EA%B2%8C-%EC%95%8C%EC%95%84%EB%B3%B4%EA%B8%B0-f308b1115359) 
 + IP (Internet Protocol)
   - 네트워크 계층
   - 구성: IP주소 + 포트번호(기본값:80)
