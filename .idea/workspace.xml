@@ -32,6 +32,11 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="Git.Settings">
+    <option name="RECENT_BRANCH_BY_REPOSITORY">
+      <map>
+        <entry key="$PROJECT_DIR$" value="2f672be862d20564c1ee632c138cc393d847020a" />
+      </map>
+    </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
     <option name="RESET_MODE" value="MIXED" />
     <option name="UPDATE_TYPE" value="REBASE" />
@@ -61,6 +66,7 @@
       <workItem from="1604803198105" duration="19000" />
       <workItem from="1605366285802" duration="250000" />
       <workItem from="1605366539960" duration="95000" />
+      <workItem from="1605528481082" duration="548000" />
     </task>
     <task id="LOCAL-00001" summary="updated: moved from chapter_01 to chapter01, delete duplicated files">
       <created>1604802952110</created>
