@@ -19,13 +19,13 @@
 ### 뚱뚱한 URL
 + 정의
   - URL의 처음이나 끝에 사용자 식별정보값 추가해 제공하는 방식  
-  - ex) www.test.kr/wishlist/ref=asia/`01-124035-21098838`  
+  - ex) www.test.kr/wishlist/ref=asia/01-124035-21098838
 + 문제점
   - URL의 비가독성 증가해 사용자에게 혼란 초래
   - 개인정보 유출 가능
   - URL이 변경되므로 캐시 이용 불가 => 서버 부하 증가
   - 타 사이트 접근하거나 특정 URL 호출 시 이탈 발생
-  - 세션 간 정보 지속 불가 (URL 따로 저장하지 않는 한 )
+  - 세션 간 정보 지속 불가 (URL 따로 저장하지 않는 한)
 
 ### 쿠키
 + 특성
@@ -120,7 +120,10 @@
 + IE
   - 쿠키를 캐시 디렉토리에 각각 개별파일로 저장
   - 자체 형식으로 저장
-  - 도메인당 크기 제한 [(참조:MS 공식문서)](https://docs.microsoft.com/ko-kr/internet-explorer/kb-support/ie-edge-faqs)
+  - 도메인당 크기 제한
+    * 쿠키 수: 50 -> 180 (2018년 6월 이후 버전)
+    * 쿠키헤더: 4KB 
+    * 참조: [MS 공식문서](https://docs.microsoft.com/ko-kr/internet-explorer/kb-support/ie-edge-faqs)
   - 형식: 여러 행으로 기술 
     * 1행: 쿠키명 (Name)
     * 2행: 쿠키값 (Value)
@@ -143,6 +146,7 @@
     |Secure|선택|HTTP SSL 보안 연결 시에만 전송|Set-Cookie: seq_id=412398750; secure|
 
 + Version 1 (RFC 2965)
-  - 속성 더 많은 Set-Cookie2 헤더 이용해 Version 0 확장
+  - 속성 더 많은 Set-Cookie2 (RFC2109) 헤더 이용해 Version 0 확장
   - 2011년 RFC 6265 (HTTP State Mng Mechanism) 으로 대체
   - 현재는 사용 안 함 (HISTORIC 상태)
+  - [참고: HTTP 쿠키와 톰캣 버전별 이슈](https://meetup.toast.com/posts/172)
