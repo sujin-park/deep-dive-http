@@ -31,7 +31,8 @@
 HTTPS는 HTTP를 안전하게 만드는 방식 중 가장 인기 있는 것이다.   
 넷스케이프에서 개척하였으며 모든 주류 브라우저 및 서버에서 지원한다.
 
-![](https://user-images.githubusercontent.com/39042837/104666915-56ade280-5718-11eb-81c6-8c30d4957f27.png)
+![](https://user-images.githubusercontent.com/39042837/104666915-56ade280-5718-11eb-81c6-8c30d4957f27.png)   
+   
 출처 : http://www.ktword.co.kr/abbr_view.php?m_temp1=3132
 
 HTTPS는 HTTP의 하부에 전송 레벨 암호 보안 계층을 제공함으로써 동작하는데,   
@@ -216,7 +217,9 @@ HTTPS는 HTTP의 하부에 전송 레벨 암호 보안 계층을 제공함으로
 추가적으로, 보통 대상의 공개키도 담고 있다. 누구나 디지털 인증서를 만들 수 있지만, 그 모두가 인증서의   
 정보를 보증하고 인증서를 개인 키로 서명할 수 있는 널리 인정받는 서명 권한을 얻을 수 있는 것은 아니다.
 
-![image](https://user-images.githubusercontent.com/39042837/104678683-4d7c4000-572f-11eb-9c65-ffd46a2a5e4d.png)
+![image](https://user-images.githubusercontent.com/39042837/104678683-4d7c4000-572f-11eb-9c65-ffd46a2a5e4d.png)   
+   
+   
 출처 : http://www.ktword.co.kr/abbr_view.php?m_temp1=1004
 
 그림은 일반적인 인증서 구조이다.
