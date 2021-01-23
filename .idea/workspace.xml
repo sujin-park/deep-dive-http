@@ -25,7 +25,10 @@
     </select>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="7574da03-e11c-4491-889e-8bd77b5b9ec3" name="Default Changelist" comment="" />
+    <list default="true" id="7574da03-e11c-4491-889e-8bd77b5b9ec3" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/chapter12/chatper12_sujin-park.md" beforeDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -51,7 +54,10 @@
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="nodejs_package_manager_path" value="npm" />
+    <property name="vue.rearranger.settings.migration" value="true" />
   </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="SvnConfiguration">
     <configuration />
   </component>
@@ -67,6 +73,11 @@
       <workItem from="1605366285802" duration="250000" />
       <workItem from="1605366539960" duration="95000" />
       <workItem from="1605528481082" duration="548000" />
+      <workItem from="1609850733688" duration="22000" />
+      <workItem from="1609893079892" duration="24000" />
+      <workItem from="1610113666160" duration="10000" />
+      <workItem from="1610452873155" duration="63000" />
+      <workItem from="1610719575735" duration="80000" />
     </task>
     <task id="LOCAL-00001" summary="updated: moved from chapter_01 to chapter01, delete duplicated files">
       <created>1604802952110</created>
@@ -86,7 +97,7 @@
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
-    <option name="version" value="2" />
+    <option name="version" value="3" />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
     <option name="TAB_STATES">
@@ -122,10 +133,11 @@
       <screen x="0" y="23" width="1440" height="828" />
     </state>
     <state x="571" y="357" key="VCS.ChangelistChooser/0.23.1440.828@0.23.1440.828" timestamp="1605366495373" />
-    <state x="420" y="219" key="Vcs.Push.Dialog.v2" timestamp="1605366551537">
-      <screen x="0" y="23" width="1440" height="828" />
+    <state x="523" y="273" key="Vcs.Push.Dialog.v2" timestamp="1610719595149">
+      <screen x="0" y="23" width="1792" height="1058" />
     </state>
     <state x="420" y="219" key="Vcs.Push.Dialog.v2/0.23.1440.828@0.23.1440.828" timestamp="1605366551537" />
     <state x="-1360" y="-420" key="Vcs.Push.Dialog.v2/0.23.1440.877/-1920.-654.1920.989@-1920.-654.1920.989" timestamp="1604802965412" />
+    <state x="523" y="273" key="Vcs.Push.Dialog.v2/0.23.1792.1058@0.23.1792.1058" timestamp="1610719595149" />
   </component>
 </project>
