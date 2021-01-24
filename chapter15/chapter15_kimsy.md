@@ -99,7 +99,7 @@
 + 과정
   1) 서버가 Content-Type과 Content-Length 헤더 포함된 응답메세지를 생성
   2) 콘텐츠 인코딩 서버(원 서버나 프록시)가 인코딩된 메세지를 생성
-     * Content-encoding 헤더를 추가
+     * Content-Encoding 헤더를 추가
      * Content-Length 헤더를 수정
   3) 수신자가 인코딩된 메세지 수신 및 디코딩 처리 통해 원본 취득
 + 유형
