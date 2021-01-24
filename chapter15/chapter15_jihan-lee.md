@@ -148,7 +148,7 @@ Content-Type: multipart/form-data; boundary=[abcdefghijklmnopqrstuvwxyz]
 #### 15.4.4 멀티파트 범위 응답
 
 범위 요청에 대한 HTTP 응답 또한 멀티파트가 될 수도 있다.   
-Content-Type:multipart/byteranges 헤더 및 각각 다른 범위를 담고 있는 멀티파트 본문이 함께온다.
+Content-Type:multipart/byteranges 헤더 및 각각 다른 범위를 담고 있는 멀티파트 본문이 함께 온다.
 
 ---
 
