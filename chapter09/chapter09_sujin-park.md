@@ -76,7 +76,7 @@ URL이 별칭을 가지면 어떤 페이지를 이전에 방문했었는지 아�
 | `http://www.foo.com/x.html#early` | http://www.foo.com/x.html#middle | 태그에 따라 페이지가 바뀌지 않을 때
 | `http://www.foo.com/readme.htm` | http://www.foo.com/README.HTM | 서버가 대소문자를 구분하지 않을 때
 | `http://www.foo.com/` | http://www.foo.com/index.html | 기본 페이지가 index.html 일 때
-| `http://www.foo.com/index.html` | http://209.231.87.45/index.html | www.foo.com이 아이피 주소를 가질 때
+| `http://www.foo.com/index.html` | http://209.231.87.45/index.html | www.foo.com 이 아이피 주소를 가질 때
 
 ### 9.1.7 URL 정규화하기
 
